@@ -1,0 +1,109 @@
+.registration_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(195, 138, 112);
+    color: rgb(127, 91, 74);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration_form h1 {
+    color: rgb(71, 43, 30);
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.registration_form label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    display: block;
+    color: rgb(71, 43, 30);
+    font-size: 0.85rem;
+}
+
+.registration_form input, 
+.registration_form select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.registration_form input:focus, 
+.registration_form select:focus {
+    border-color: rgb(71, 43, 30);
+    outline: none;
+    box-shadow: 0 0 5px rgb(56, 33, 22);
+}
+
+.registration_form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid rgb(71, 43, 30);
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #29540e;
+    appearance: none;
+    cursor: pointer;
+}
+
+.registration_form select:focus {
+    border-color: rgb(71, 43, 30);
+    box-shadow: 0 0 5px rgb(56, 33, 22);
+    outline: none;
+    background-color: rgb(195, 138, 112);
+}
+
+.registration_form select:hover {
+    background-color: rgb(105, 57, 34);
+}
+
+.registration_form option {
+    background-color: #fff;
+    color: rgb(71, 43, 30);
+}
+
+.registration_form option:hover {
+    background-color: rgb(195, 138, 112);
+}
+
+button {
+    background: rgb(71, 43, 30);
+    color: rgb(195, 138, 112);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(56, 33, 22);
+    color: rgb(127, 91, 74);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 91, 74);
+    color: #538516;
+    line-height: 1.6;
+    padding: 20px;
+}
